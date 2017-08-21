@@ -1,0 +1,88 @@
+﻿  main.cpp
+  ofApp.cpp
+  BaseEnvelope.cpp
+  CREnvelope.cpp
+  CTEnvelope.cpp
+  ImpulseGenerators.cpp
+  Noise.cpp
+  BaseOscillator.cpp
+  TrivialOscillators.cpp
+  WavetableGeneration.cpp
+  WavetableOscillators.cpp
+  Biquad.cpp
+c:\users\athena\documents\of_v0.9.8_vs_release\addons\ofxatk\src\modifiers\Biquad.hpp(65): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\..\addons\ofxATK\src\modifiers\Biquad.cpp)
+  Filters.cpp
+  Reverb.cpp
+  Interpolation.cpp
+  Meters.cpp
+  Miscellaneous.cpp
+  Oscilliscope.cpp
+  RecordAudio.cpp
+C:\Users\ATHENA\Documents\of_v0.9.8_vs_release\addons\ofxATK\src\utilities\TapInTapOut.hpp(23): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data (compiling source file ..\..\..\addons\ofxATK\src\modifiers\Reverb.cpp)
+C:\Users\ATHENA\Documents\of_v0.9.8_vs_release\addons\ofxATK\src\utilities\TapInTapOut.hpp(23): warning C4244: 'initializing': conversion from 'double' to 'const int', possible loss of data (compiling source file ..\..\..\addons\ofxATK\src\modifiers\Reverb.cpp)
+C:\Users\ATHENA\Documents\of_v0.9.8_vs_release\addons\ofxATK\src\utilities\TapInTapOut.hpp(48): warning C4244: '=': conversion from 'double' to 'int', possible loss of data (compiling source file ..\..\..\addons\ofxATK\src\modifiers\Reverb.cpp)
+C:\Users\ATHENA\Documents\of_v0.9.8_vs_release\addons\ofxATK\src\utilities\TapInTapOut.hpp(60): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data (compiling source file ..\..\..\addons\ofxATK\src\modifiers\Reverb.cpp)
+c:\users\athena\documents\of_v0.9.8_vs_release\addons\ofxatk\src\utilities\Interpolation.hpp(34): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\..\addons\ofxATK\src\utilities\Interpolation.cpp)
+c:\users\athena\documents\of_v0.9.8_vs_release\addons\ofxatk\src\utilities\Interpolation.hpp(35): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\..\addons\ofxATK\src\utilities\Interpolation.cpp)
+c:\users\athena\documents\of_v0.9.8_vs_release\addons\ofxatk\src\utilities\Interpolation.hpp(36): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\..\addons\ofxATK\src\utilities\Interpolation.cpp)
+c:\users\athena\documents\of_v0.9.8_vs_release\addons\ofxatk\src\utilities\Interpolation.hpp(38): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\..\addons\ofxATK\src\utilities\Interpolation.cpp)
+  Smoother.cpp
+c:\users\athena\documents\of_v0.9.8_vs_release\addons\ofxatk\src\utilities\Miscellaneous.hpp(16): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\..\addons\ofxATK\src\utilities\Miscellaneous.cpp)
+c:\users\athena\documents\of_v0.9.8_vs_release\addons\ofxatk\src\utilities\Miscellaneous.hpp(26): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\..\addons\ofxATK\src\utilities\Miscellaneous.cpp)
+c:\users\athena\documents\of_v0.9.8_vs_release\addons\ofxatk\src\generators\noise.cpp(25): warning C4715: 'PinkNoise::findTable': not all control paths return a value
+c:\users\athena\documents\of_v0.9.8_vs_release\addons\ofxatk\src\generators\noise.cpp(50): warning C4715: 'PinkNoise::findEntry': not all control paths return a value
+  SoundFile.cpp
+  SoundPlayer.cpp
+  Spatialization.cpp
+  Spectroscope.cpp
+c:\users\athena\documents\of_v0.9.8_vs_release\addons\ofxatk\src\generators\oscillators\wavetableoscillators.hpp(122): warning C4715: 'WTSquare::whichOctave': not all control paths return a value
+  TapInTapOut.cpp
+  ATKSettings.cpp
+c:\users\athena\documents\of_v0.9.8_vs_release\addons\ofxatk\src\utilities\TapInTapOut.hpp(23): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data (compiling source file ..\..\..\addons\ofxATK\src\utilities\TapInTapOut.cpp)
+c:\users\athena\documents\of_v0.9.8_vs_release\addons\ofxatk\src\utilities\TapInTapOut.hpp(23): warning C4244: 'initializing': conversion from 'double' to 'const int', possible loss of data (compiling source file ..\..\..\addons\ofxATK\src\utilities\TapInTapOut.cpp)
+c:\users\athena\documents\of_v0.9.8_vs_release\addons\ofxatk\src\utilities\TapInTapOut.hpp(48): warning C4244: '=': conversion from 'double' to 'int', possible loss of data (compiling source file ..\..\..\addons\ofxATK\src\utilities\TapInTapOut.cpp)
+c:\users\athena\documents\of_v0.9.8_vs_release\addons\ofxatk\src\utilities\TapInTapOut.hpp(60): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data (compiling source file ..\..\..\addons\ofxATK\src\utilities\TapInTapOut.cpp)
+  AudioFFT.cpp
+  ofxATK.cpp
+  ofxPortSF.cpp
+..\..\..\addons\ofxATK\libs\ofxPortSF.cpp(1526): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+..\..\..\addons\ofxATK\libs\ofxPortSF.cpp(1531): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+..\..\..\addons\ofxATK\libs\ofxPortSF.cpp(2269): warning C4018: '>': signed/unsigned mismatch
+..\..\..\addons\ofxATK\libs\ofxPortSF.cpp(2874): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+..\..\..\addons\ofxATK\libs\ofxPortSF.cpp(2882): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+..\..\..\addons\ofxATK\libs\ofxPortSF.cpp(3387): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(568): note: see declaration of 'stricmp'
+..\..\..\addons\ofxATK\libs\ofxPortSF.cpp(3389): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(568): note: see declaration of 'stricmp'
+..\..\..\addons\ofxATK\libs\ofxPortSF.cpp(3391): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(568): note: see declaration of 'stricmp'
+..\..\..\addons\ofxATK\libs\ofxPortSF.cpp(3394): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(568): note: see declaration of 'stricmp'
+..\..\..\addons\ofxATK\libs\ofxPortSF.cpp(3396): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(568): note: see declaration of 'stricmp'
+  ofxBaseGui.cpp
+  ofxButton.cpp
+  ofxGuiGroup.cpp
+  ofxLabel.cpp
+  ofxPanel.cpp
+  ofxSlider.cpp
+  ofxSliderGroup.cpp
+  ofxToggle.cpp
+     Creating library bin\example-Reverb_debug.lib and object bin\example-Reverb_debug.exp
+  example-Reverb.vcxproj -> C:\Users\ATHENA\Documents\of_v0.9.8_vs_release\addons\ofxATK\example-Reverb\bin\example-Reverb_debug.exe
+  example-Reverb.vcxproj -> bin\example-Reverb_debug.pdb (Full PDB)
+  
+  	                   9	C:\Users\ATHENA\Documents\of_v0.9.8_vs_release\export\vs\Win32\
+  	    New File  		 2939392	C:\Users\ATHENA\Documents\of_v0.9.8_vs_release\export\vs\Win32\assimp.dll
+  	    New File  		 1266176	C:\Users\ATHENA\Documents\of_v0.9.8_vs_release\export\vs\Win32\fmodex.dll
+  	    New File  		 1312768	C:\Users\ATHENA\Documents\of_v0.9.8_vs_release\export\vs\Win32\fmodexL.dll
+  	    New File  		 5647872	C:\Users\ATHENA\Documents\of_v0.9.8_vs_release\export\vs\Win32\FreeImage.dll
+  	    New File  		  580608	C:\Users\ATHENA\Documents\of_v0.9.8_vs_release\export\vs\Win32\freetype.dll
+  	    New File  		  237568	C:\Users\ATHENA\Documents\of_v0.9.8_vs_release\export\vs\Win32\glut32.dll
+  	    New File  		 1178624	C:\Users\ATHENA\Documents\of_v0.9.8_vs_release\export\vs\Win32\libeay32.dll
+  	    New File  		  269824	C:\Users\ATHENA\Documents\of_v0.9.8_vs_release\export\vs\Win32\ssleay32.dll
+  	    New File  		   69632	C:\Users\ATHENA\Documents\of_v0.9.8_vs_release\export\vs\Win32\Zlib.dll
