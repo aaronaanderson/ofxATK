@@ -1,0 +1,710 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1638312D12BF9E95403037C1 /* RecordAudio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 56690EDD81E868D84AF5A3CF /* RecordAudio.cpp */; };
+		1A3B48013AEEE9CB1C0B31FB /* Biquad.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9280AF5B3C155DD4B497FAA9 /* Biquad.cpp */; };
+		1CD33E884D9E3358252E82A1 /* ofxToggle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 907C5B5E104864A2D3A25745 /* ofxToggle.cpp */; };
+		2C40F2FF7977A3FCEA30C89A /* Spectroscope.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 27B535F88BDAD6B6F927B555 /* Spectroscope.cpp */; };
+		483908258D00B98B4BE69F07 /* ofxLabel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 78D67A00EB899FAC09430597 /* ofxLabel.cpp */; };
+		4D3A04D62556899617530617 /* WavetableGeneration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0D52842E3A573E6B7B435A9A /* WavetableGeneration.cpp */; };
+		4F3AED2EA73106D3E5C7AD49 /* ImpulseGenerators.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5ED2EC5AAB347CF0CD18E54 /* ImpulseGenerators.cpp */; };
+		569CFB51348863C71B1EEC4F /* CREnvelope.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B2AF6AF148EFA849904A5CE /* CREnvelope.cpp */; };
+		5CBB2AB3A60F65431D7B555D /* ofxButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C88333E71C9457E441C33474 /* ofxButton.cpp */; };
+		5F5CD6CC1B0585533726B142 /* SoundPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C63BADA00E27DF00A50C00CB /* SoundPlayer.cpp */; };
+		64C327A569A3DFB301BE45C1 /* Reverb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 528C148ACE1D3C3C77449189 /* Reverb.cpp */; };
+		7267F649585D2AA44F1A24E9 /* Smoother.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A84BB4945C27B5A7C2609D99 /* Smoother.cpp */; };
+		7390B79731F519825D2D4357 /* Spatialization.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA45C6C091A611AABE2E16BA /* Spatialization.cpp */; };
+		745621C18185D320B4C8DB8B /* AudioFFT.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C30C42B18D82C96C5B880834 /* AudioFFT.cpp */; };
+		7CD67472D8A4823C0CA16E62 /* CTEnvelope.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7B5BF5E71D97588DE22F78D4 /* CTEnvelope.cpp */; };
+		8279369C06E4F66A38431822 /* Filters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44FB870845BF56442E8B58A9 /* Filters.cpp */; };
+		837220E80EB56CD44AD27F2A /* ofxSlider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15F2C6477A769C03A56D1401 /* ofxSlider.cpp */; };
+		84013A70B04CB70F4558A701 /* WavetableOscillators.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC54980D4A4CA9C96457F64E /* WavetableOscillators.cpp */; };
+		84ADD6862CFDF5B0881D3EAE /* ofxATK.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B8855F4EAEFFF0B335A8278D /* ofxATK.cpp */; };
+		856AA354D08AB4B323081444 /* ofxBaseGui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9604B925D32EE39065747725 /* ofxBaseGui.cpp */; };
+		96C46664B041CAD31EAECCAF /* BaseEnvelope.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2377B26596D2D6727928D3DA /* BaseEnvelope.cpp */; };
+		A6CC9F0D8DD7167345DE570B /* TrivialOscillators.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 27C5457EFD58D09DF9ADDE66 /* TrivialOscillators.cpp */; };
+		B266578FC55D23BFEBC042E7 /* ofxGuiGroup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECF8674C7975F1063C5E30CA /* ofxGuiGroup.cpp */; };
+		B56FE57CC35806596D38118C /* ofxSliderGroup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 802251BAF1B35B1D67B32FD0 /* ofxSliderGroup.cpp */; };
+		B6693BF4110304BC356F694E /* SoundFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B147ADE8FF267014A70006A2 /* SoundFile.cpp */; };
+		B8FF85DA9031565D3E1295B6 /* Miscellaneous.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FAEB950DD3F68FCA3C84B63 /* Miscellaneous.cpp */; };
+		C33B315666B13A570FF064E0 /* Meters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B351DAFA0F76272D12B56C1A /* Meters.cpp */; };
+		D49EEB3952D37FC029692AA2 /* TapInTapOut.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E8CFA3778E20D36113102FF /* TapInTapOut.cpp */; };
+		D8290CAB60C0322F9D0BFCA0 /* Noise.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9BFB91CFF65FA772B89F277 /* Noise.cpp */; };
+		E2E9FF4865D1156286A8E4FB /* Interpolation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE444049058C591380725378 /* Interpolation.cpp */; };
+		E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
+		E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1D0A3A1BDC003C02F2 /* main.cpp */; };
+		E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */; };
+		F0C7CC06D5A02B771A637465 /* ATKSettings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0CACD3B662E429AE104CD1C /* ATKSettings.cpp */; };
+		F285EB3169F1566CA3D93C20 /* ofxPanel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E112B3AEBEA2C091BF2B40AE /* ofxPanel.cpp */; };
+		F9DCB82632FA849C709AEAA1 /* BaseOscillator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A09C3C4B2776CE696726D7D /* BaseOscillator.cpp */; };
+		F9E972F3F5334967296ED78B /* Oscilliscope.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60076F076E300AA1F4BA4730 /* Oscilliscope.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4328147138ABC890047C5CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4B27C1510CBEB8E00536013;
+			remoteInfo = openFrameworks;
+		};
+		E4EEB9AB138B136A00A80321 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E4B27C1410CBEB8E00536013;
+			remoteInfo = openFrameworks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E4C2427710CC5ABF004149E2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		035FB921CB5672FAEFDBB614 /* CTEnvelope.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = CTEnvelope.hpp; path = ../../../addons/ofxATK/src/generators/Envelopes/CTEnvelope.hpp; sourceTree = SOURCE_ROOT; };
+		08CACEE0443F23F0250830AA /* TrivialOscillators.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = TrivialOscillators.hpp; path = ../../../addons/ofxATK/src/generators/Oscillators/TrivialOscillators.hpp; sourceTree = SOURCE_ROOT; };
+		0A1DAC09F322AE313A40706D /* ofxToggle.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxToggle.h; path = ../../../addons/ofxGui/src/ofxToggle.h; sourceTree = SOURCE_ROOT; };
+		0B2AF6AF148EFA849904A5CE /* CREnvelope.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = CREnvelope.cpp; path = ../../../addons/ofxATK/src/generators/Envelopes/CREnvelope.cpp; sourceTree = SOURCE_ROOT; };
+		0D52842E3A573E6B7B435A9A /* WavetableGeneration.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = WavetableGeneration.cpp; path = ../../../addons/ofxATK/src/generators/Oscillators/WavetableGeneration.cpp; sourceTree = SOURCE_ROOT; };
+		1211C3C2FC70736AE3BD4A4B /* AllPassFilter.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = AllPassFilter.hpp; path = ../../../addons/ofxATK/src/modifiers/DelayBased/AllPassFilter.hpp; sourceTree = SOURCE_ROOT; };
+		146D21C6AF3D19454BC0ADA5 /* Windows.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Windows.hpp; path = ../../../addons/ofxATK/src/generators/Windows.hpp; sourceTree = SOURCE_ROOT; };
+		15F2C6477A769C03A56D1401 /* ofxSlider.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxSlider.cpp; path = ../../../addons/ofxGui/src/ofxSlider.cpp; sourceTree = SOURCE_ROOT; };
+		17E65988300FBD9AAA2CD0CA /* ofxGui.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxGui.h; path = ../../../addons/ofxGui/src/ofxGui.h; sourceTree = SOURCE_ROOT; };
+		1C0DA2561397A7DE0246858B /* ofxGuiGroup.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxGuiGroup.h; path = ../../../addons/ofxGui/src/ofxGuiGroup.h; sourceTree = SOURCE_ROOT; };
+		1FAEB950DD3F68FCA3C84B63 /* Miscellaneous.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = Miscellaneous.cpp; path = "../../../addons/ofxATK/src/utilities /Miscellaneous.cpp"; sourceTree = SOURCE_ROOT; };
+		2377B26596D2D6727928D3DA /* BaseEnvelope.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = BaseEnvelope.cpp; path = ../../../addons/ofxATK/src/generators/Envelopes/BaseEnvelope.cpp; sourceTree = SOURCE_ROOT; };
+		27B535F88BDAD6B6F927B555 /* Spectroscope.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = Spectroscope.cpp; path = "../../../addons/ofxATK/src/utilities /Spectroscope.cpp"; sourceTree = SOURCE_ROOT; };
+		27C5457EFD58D09DF9ADDE66 /* TrivialOscillators.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = TrivialOscillators.cpp; path = ../../../addons/ofxATK/src/generators/Oscillators/TrivialOscillators.cpp; sourceTree = SOURCE_ROOT; };
+		2834D88A62CD23F3DE2C47D1 /* ofxButton.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxButton.h; path = ../../../addons/ofxGui/src/ofxButton.h; sourceTree = SOURCE_ROOT; };
+		28D494082737A449E595F22A /* WavetableOscillators.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = WavetableOscillators.hpp; path = ../../../addons/ofxATK/src/generators/Oscillators/WavetableOscillators.hpp; sourceTree = SOURCE_ROOT; };
+		28F8404D0557A453AE83F687 /* Smoother.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Smoother.hpp; path = "../../../addons/ofxATK/src/utilities /Smoother.hpp"; sourceTree = SOURCE_ROOT; };
+		30A02EAC00F7727825276256 /* AudioFFT.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = AudioFFT.h; path = ../../../addons/ofxATK/libs/AudioFFT.h; sourceTree = SOURCE_ROOT; };
+		399D66FECAEB6065740AFFCC /* Interpolation.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Interpolation.hpp; path = "../../../addons/ofxATK/src/utilities /Interpolation.hpp"; sourceTree = SOURCE_ROOT; };
+		3A4571ABFF03D8FA9FE1243C /* Spatialization.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Spatialization.hpp; path = "../../../addons/ofxATK/src/utilities /Spatialization.hpp"; sourceTree = SOURCE_ROOT; };
+		41C0BA34A12D90F7AAF50EFE /* ofxATK.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxATK.hpp; path = ../../../addons/ofxATK/src/ofxATK.hpp; sourceTree = SOURCE_ROOT; };
+		44FB870845BF56442E8B58A9 /* Filters.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = Filters.cpp; path = ../../../addons/ofxATK/src/modifiers/Filters.cpp; sourceTree = SOURCE_ROOT; };
+		4D620711FFD9DA0E19A46C5E /* BaseOscillator.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = BaseOscillator.hpp; path = ../../../addons/ofxATK/src/generators/Oscillators/BaseOscillator.hpp; sourceTree = SOURCE_ROOT; };
+		528C148ACE1D3C3C77449189 /* Reverb.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = Reverb.cpp; path = ../../../addons/ofxATK/src/modifiers/Reverb.cpp; sourceTree = SOURCE_ROOT; };
+		52AFA1F08C420992CAAAE648 /* ofxSlider.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxSlider.h; path = ../../../addons/ofxGui/src/ofxSlider.h; sourceTree = SOURCE_ROOT; };
+		56690EDD81E868D84AF5A3CF /* RecordAudio.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = RecordAudio.cpp; path = "../../../addons/ofxATK/src/utilities /RecordAudio.cpp"; sourceTree = SOURCE_ROOT; };
+		579FD4AFC32D3F061A7E8282 /* Biquad.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Biquad.hpp; path = ../../../addons/ofxATK/src/modifiers/Biquad.hpp; sourceTree = SOURCE_ROOT; };
+		60076F076E300AA1F4BA4730 /* Oscilliscope.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = Oscilliscope.cpp; path = "../../../addons/ofxATK/src/utilities /Oscilliscope.cpp"; sourceTree = SOURCE_ROOT; };
+		6B4D0C8C4B46C91277F7EFE9 /* SoundFile.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SoundFile.hpp; path = "../../../addons/ofxATK/src/utilities /SoundFile.hpp"; sourceTree = SOURCE_ROOT; };
+		72B5AD561F93FC21C2C52ECF /* Reverb.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Reverb.hpp; path = ../../../addons/ofxATK/src/modifiers/Reverb.hpp; sourceTree = SOURCE_ROOT; };
+		76CB12713066057A2F75960A /* Spectroscope.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Spectroscope.hpp; path = "../../../addons/ofxATK/src/utilities /Spectroscope.hpp"; sourceTree = SOURCE_ROOT; };
+		78D67A00EB899FAC09430597 /* ofxLabel.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxLabel.cpp; path = ../../../addons/ofxGui/src/ofxLabel.cpp; sourceTree = SOURCE_ROOT; };
+		7B5BF5E71D97588DE22F78D4 /* CTEnvelope.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = CTEnvelope.cpp; path = ../../../addons/ofxATK/src/generators/Envelopes/CTEnvelope.cpp; sourceTree = SOURCE_ROOT; };
+		7F919F048238D541DAE7F773 /* Miscellaneous.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Miscellaneous.hpp; path = "../../../addons/ofxATK/src/utilities /Miscellaneous.hpp"; sourceTree = SOURCE_ROOT; };
+		802251BAF1B35B1D67B32FD0 /* ofxSliderGroup.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxSliderGroup.cpp; path = ../../../addons/ofxGui/src/ofxSliderGroup.cpp; sourceTree = SOURCE_ROOT; };
+		80F34471214B610440325B72 /* CombFilter.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = CombFilter.hpp; path = ../../../addons/ofxATK/src/modifiers/DelayBased/CombFilter.hpp; sourceTree = SOURCE_ROOT; };
+		87F26B4B24CBD428AD9EEBAA /* ofxBaseGui.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxBaseGui.h; path = ../../../addons/ofxGui/src/ofxBaseGui.h; sourceTree = SOURCE_ROOT; };
+		89449E3044D456F7DE7BEA14 /* ofxPanel.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxPanel.h; path = ../../../addons/ofxGui/src/ofxPanel.h; sourceTree = SOURCE_ROOT; };
+		8A2CE790858AB747EDA0D2BE /* RecordAudio.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = RecordAudio.hpp; path = "../../../addons/ofxATK/src/utilities /RecordAudio.hpp"; sourceTree = SOURCE_ROOT; };
+		907C5B5E104864A2D3A25745 /* ofxToggle.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxToggle.cpp; path = ../../../addons/ofxGui/src/ofxToggle.cpp; sourceTree = SOURCE_ROOT; };
+		9280AF5B3C155DD4B497FAA9 /* Biquad.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = Biquad.cpp; path = ../../../addons/ofxATK/src/modifiers/Biquad.cpp; sourceTree = SOURCE_ROOT; };
+		9604B925D32EE39065747725 /* ofxBaseGui.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxBaseGui.cpp; path = ../../../addons/ofxGui/src/ofxBaseGui.cpp; sourceTree = SOURCE_ROOT; };
+		9A09C3C4B2776CE696726D7D /* BaseOscillator.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = BaseOscillator.cpp; path = ../../../addons/ofxATK/src/generators/Oscillators/BaseOscillator.cpp; sourceTree = SOURCE_ROOT; };
+		9E8CFA3778E20D36113102FF /* TapInTapOut.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = TapInTapOut.cpp; path = "../../../addons/ofxATK/src/utilities /TapInTapOut.cpp"; sourceTree = SOURCE_ROOT; };
+		A84BB4945C27B5A7C2609D99 /* Smoother.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = Smoother.cpp; path = "../../../addons/ofxATK/src/utilities /Smoother.cpp"; sourceTree = SOURCE_ROOT; };
+		AE0BE2F84F1C7246E6D7929C /* ImpulseGenerators.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ImpulseGenerators.hpp; path = ../../../addons/ofxATK/src/generators/ImpulseGenerators.hpp; sourceTree = SOURCE_ROOT; };
+		B147ADE8FF267014A70006A2 /* SoundFile.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = SoundFile.cpp; path = "../../../addons/ofxATK/src/utilities /SoundFile.cpp"; sourceTree = SOURCE_ROOT; };
+		B263E75F5B578F3D14AC9144 /* Noise.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Noise.hpp; path = ../../../addons/ofxATK/src/generators/Noise.hpp; sourceTree = SOURCE_ROOT; };
+		B351DAFA0F76272D12B56C1A /* Meters.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = Meters.cpp; path = "../../../addons/ofxATK/src/utilities /Meters.cpp"; sourceTree = SOURCE_ROOT; };
+		B87C60311EC1FE841C1ECD89 /* ofxLabel.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxLabel.h; path = ../../../addons/ofxGui/src/ofxLabel.h; sourceTree = SOURCE_ROOT; };
+		B8855F4EAEFFF0B335A8278D /* ofxATK.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxATK.cpp; path = ../../../addons/ofxATK/libs/ofxATK.cpp; sourceTree = SOURCE_ROOT; };
+		C0CACD3B662E429AE104CD1C /* ATKSettings.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ATKSettings.cpp; path = ../../../addons/ofxATK/libs/ATKSettings.cpp; sourceTree = SOURCE_ROOT; };
+		C30C42B18D82C96C5B880834 /* AudioFFT.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = AudioFFT.cpp; path = ../../../addons/ofxATK/libs/AudioFFT.cpp; sourceTree = SOURCE_ROOT; };
+		C63BADA00E27DF00A50C00CB /* SoundPlayer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = SoundPlayer.cpp; path = "../../../addons/ofxATK/src/utilities /SoundPlayer.cpp"; sourceTree = SOURCE_ROOT; };
+		C7091F5C2AF1D529E8D541A1 /* WavetableGeneration.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = WavetableGeneration.hpp; path = ../../../addons/ofxATK/src/generators/Oscillators/WavetableGeneration.hpp; sourceTree = SOURCE_ROOT; };
+		C70D8946940288799E82131E /* ofxSliderGroup.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxSliderGroup.h; path = ../../../addons/ofxGui/src/ofxSliderGroup.h; sourceTree = SOURCE_ROOT; };
+		C88333E71C9457E441C33474 /* ofxButton.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxButton.cpp; path = ../../../addons/ofxGui/src/ofxButton.cpp; sourceTree = SOURCE_ROOT; };
+		C9333EA5AC5B5BB980C8ED9E /* SoundPlayer.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SoundPlayer.hpp; path = "../../../addons/ofxATK/src/utilities /SoundPlayer.hpp"; sourceTree = SOURCE_ROOT; };
+		D5ED2EC5AAB347CF0CD18E54 /* ImpulseGenerators.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ImpulseGenerators.cpp; path = ../../../addons/ofxATK/src/generators/ImpulseGenerators.cpp; sourceTree = SOURCE_ROOT; };
+		D85E088D500DF67313C9500C /* BaseEnvelope.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = BaseEnvelope.hpp; path = ../../../addons/ofxATK/src/generators/Envelopes/BaseEnvelope.hpp; sourceTree = SOURCE_ROOT; };
+		D9BFB91CFF65FA772B89F277 /* Noise.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = Noise.cpp; path = ../../../addons/ofxATK/src/generators/Noise.cpp; sourceTree = SOURCE_ROOT; };
+		DC2D209BBD69462DBF9E1854 /* Oscilliscope.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Oscilliscope.hpp; path = "../../../addons/ofxATK/src/utilities /Oscilliscope.hpp"; sourceTree = SOURCE_ROOT; };
+		E112B3AEBEA2C091BF2B40AE /* ofxPanel.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxPanel.cpp; path = ../../../addons/ofxGui/src/ofxPanel.cpp; sourceTree = SOURCE_ROOT; };
+		E13D1E945974BDD49C8DE315 /* CREnvelope.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = CREnvelope.hpp; path = ../../../addons/ofxATK/src/generators/Envelopes/CREnvelope.hpp; sourceTree = SOURCE_ROOT; };
+		E1FC4E6A33E816BC900CB343 /* ATKSettings.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ATKSettings.hpp; path = ../../../addons/ofxATK/libs/ATKSettings.hpp; sourceTree = SOURCE_ROOT; };
+		E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openFrameworksLib.xcodeproj; path = ../../../libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj; sourceTree = SOURCE_ROOT; };
+		E4B69B5B0A3A1756003C02F2 /* example-EnvelopeDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "example-EnvelopeDebug.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4B69E1D0A3A1BDC003C02F2 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofApp.cpp; path = src/ofApp.cpp; sourceTree = SOURCE_ROOT; };
+		E4B69E1F0A3A1BDC003C02F2 /* ofApp.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ofApp.h; path = src/ofApp.h; sourceTree = SOURCE_ROOT; };
+		E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.xml; path = "openFrameworks-Info.plist"; sourceTree = "<group>"; };
+		E4EB691F138AFCF100A09F29 /* CoreOF.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = CoreOF.xcconfig; path = ../../../libs/openFrameworksCompiled/project/osx/CoreOF.xcconfig; sourceTree = SOURCE_ROOT; };
+		E4EB6923138AFD0F00A09F29 /* Project.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Project.xcconfig; sourceTree = "<group>"; };
+		EA45C6C091A611AABE2E16BA /* Spatialization.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = Spatialization.cpp; path = "../../../addons/ofxATK/src/utilities /Spatialization.cpp"; sourceTree = SOURCE_ROOT; };
+		EC54980D4A4CA9C96457F64E /* WavetableOscillators.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = WavetableOscillators.cpp; path = ../../../addons/ofxATK/src/generators/Oscillators/WavetableOscillators.cpp; sourceTree = SOURCE_ROOT; };
+		ECF8674C7975F1063C5E30CA /* ofxGuiGroup.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxGuiGroup.cpp; path = ../../../addons/ofxGui/src/ofxGuiGroup.cpp; sourceTree = SOURCE_ROOT; };
+		EF1969A8FDF5BD980A562C41 /* Filters.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Filters.hpp; path = ../../../addons/ofxATK/src/modifiers/Filters.hpp; sourceTree = SOURCE_ROOT; };
+		F853EF58B720CBABC3CC3A85 /* Meters.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Meters.hpp; path = "../../../addons/ofxATK/src/utilities /Meters.hpp"; sourceTree = SOURCE_ROOT; };
+		FBDCBC850BC32E4D5CB10527 /* TapInTapOut.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = TapInTapOut.hpp; path = "../../../addons/ofxATK/src/utilities /TapInTapOut.hpp"; sourceTree = SOURCE_ROOT; };
+		FE444049058C591380725378 /* Interpolation.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = Interpolation.cpp; path = "../../../addons/ofxATK/src/utilities /Interpolation.cpp"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4B69B590A3A1756003C02F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0561437D1109682ECC120DBA /* generators */ = {
+			isa = PBXGroup;
+			children = (
+				D77A55DBCC698F99E18CACDA /* Envelopes */,
+				D5ED2EC5AAB347CF0CD18E54 /* ImpulseGenerators.cpp */,
+				AE0BE2F84F1C7246E6D7929C /* ImpulseGenerators.hpp */,
+				D9BFB91CFF65FA772B89F277 /* Noise.cpp */,
+				B263E75F5B578F3D14AC9144 /* Noise.hpp */,
+				39A65141EE4ABAA128344CFF /* Oscillators */,
+				146D21C6AF3D19454BC0ADA5 /* Windows.hpp */,
+			);
+			name = generators;
+			sourceTree = "<group>";
+		};
+		39A65141EE4ABAA128344CFF /* Oscillators */ = {
+			isa = PBXGroup;
+			children = (
+				9A09C3C4B2776CE696726D7D /* BaseOscillator.cpp */,
+				4D620711FFD9DA0E19A46C5E /* BaseOscillator.hpp */,
+				27C5457EFD58D09DF9ADDE66 /* TrivialOscillators.cpp */,
+				08CACEE0443F23F0250830AA /* TrivialOscillators.hpp */,
+				0D52842E3A573E6B7B435A9A /* WavetableGeneration.cpp */,
+				C7091F5C2AF1D529E8D541A1 /* WavetableGeneration.hpp */,
+				EC54980D4A4CA9C96457F64E /* WavetableOscillators.cpp */,
+				28D494082737A449E595F22A /* WavetableOscillators.hpp */,
+			);
+			name = Oscillators;
+			sourceTree = "<group>";
+		};
+		3C9C8B81DD1E5B3799D3EAB8 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				C0CACD3B662E429AE104CD1C /* ATKSettings.cpp */,
+				E1FC4E6A33E816BC900CB343 /* ATKSettings.hpp */,
+				C30C42B18D82C96C5B880834 /* AudioFFT.cpp */,
+				30A02EAC00F7727825276256 /* AudioFFT.h */,
+				B8855F4EAEFFF0B335A8278D /* ofxATK.cpp */,
+			);
+			name = libs;
+			sourceTree = "<group>";
+		};
+		438ED23FD705B6A6ACE0B0D2 /* modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				9280AF5B3C155DD4B497FAA9 /* Biquad.cpp */,
+				579FD4AFC32D3F061A7E8282 /* Biquad.hpp */,
+				E5D35E5D3666A22C68AC3C7E /* DelayBased */,
+				44FB870845BF56442E8B58A9 /* Filters.cpp */,
+				EF1969A8FDF5BD980A562C41 /* Filters.hpp */,
+				528C148ACE1D3C3C77449189 /* Reverb.cpp */,
+				72B5AD561F93FC21C2C52ECF /* Reverb.hpp */,
+			);
+			name = modifiers;
+			sourceTree = "<group>";
+		};
+		480A780D8D0308AE4A368801 /* ofxGui */ = {
+			isa = PBXGroup;
+			children = (
+				A763ED608B35AE3310251DEE /* src */,
+			);
+			name = ofxGui;
+			sourceTree = "<group>";
+		};
+		6948EE371B920CB800B5AC1A /* local_addons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = local_addons;
+			sourceTree = "<group>";
+		};
+		8417523D02E9D4E0D7469596 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				0561437D1109682ECC120DBA /* generators */,
+				438ED23FD705B6A6ACE0B0D2 /* modifiers */,
+				41C0BA34A12D90F7AAF50EFE /* ofxATK.hpp */,
+				F1F42077EB40041BE13C3C76 /* utilities  */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		96098113A6E977CDF4F2786E /* ofxATK */ = {
+			isa = PBXGroup;
+			children = (
+				8417523D02E9D4E0D7469596 /* src */,
+				3C9C8B81DD1E5B3799D3EAB8 /* libs */,
+			);
+			name = ofxATK;
+			sourceTree = "<group>";
+		};
+		A763ED608B35AE3310251DEE /* src */ = {
+			isa = PBXGroup;
+			children = (
+				9604B925D32EE39065747725 /* ofxBaseGui.cpp */,
+				87F26B4B24CBD428AD9EEBAA /* ofxBaseGui.h */,
+				C88333E71C9457E441C33474 /* ofxButton.cpp */,
+				2834D88A62CD23F3DE2C47D1 /* ofxButton.h */,
+				17E65988300FBD9AAA2CD0CA /* ofxGui.h */,
+				ECF8674C7975F1063C5E30CA /* ofxGuiGroup.cpp */,
+				1C0DA2561397A7DE0246858B /* ofxGuiGroup.h */,
+				78D67A00EB899FAC09430597 /* ofxLabel.cpp */,
+				B87C60311EC1FE841C1ECD89 /* ofxLabel.h */,
+				E112B3AEBEA2C091BF2B40AE /* ofxPanel.cpp */,
+				89449E3044D456F7DE7BEA14 /* ofxPanel.h */,
+				15F2C6477A769C03A56D1401 /* ofxSlider.cpp */,
+				52AFA1F08C420992CAAAE648 /* ofxSlider.h */,
+				802251BAF1B35B1D67B32FD0 /* ofxSliderGroup.cpp */,
+				C70D8946940288799E82131E /* ofxSliderGroup.h */,
+				907C5B5E104864A2D3A25745 /* ofxToggle.cpp */,
+				0A1DAC09F322AE313A40706D /* ofxToggle.h */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		BB4B014C10F69532006C3DED /* addons */ = {
+			isa = PBXGroup;
+			children = (
+				96098113A6E977CDF4F2786E /* ofxATK */,
+				480A780D8D0308AE4A368801 /* ofxGui */,
+			);
+			name = addons;
+			sourceTree = "<group>";
+		};
+		D77A55DBCC698F99E18CACDA /* Envelopes */ = {
+			isa = PBXGroup;
+			children = (
+				2377B26596D2D6727928D3DA /* BaseEnvelope.cpp */,
+				D85E088D500DF67313C9500C /* BaseEnvelope.hpp */,
+				0B2AF6AF148EFA849904A5CE /* CREnvelope.cpp */,
+				E13D1E945974BDD49C8DE315 /* CREnvelope.hpp */,
+				7B5BF5E71D97588DE22F78D4 /* CTEnvelope.cpp */,
+				035FB921CB5672FAEFDBB614 /* CTEnvelope.hpp */,
+			);
+			name = Envelopes;
+			sourceTree = "<group>";
+		};
+		E4328144138ABC890047C5CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4328148138ABC890047C5CB /* openFrameworksDebug.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4B69B4A0A3A1720003C02F2 = {
+			isa = PBXGroup;
+			children = (
+				E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */,
+				E4EB6923138AFD0F00A09F29 /* Project.xcconfig */,
+				E4B69E1C0A3A1BDC003C02F2 /* src */,
+				E4EEC9E9138DF44700A80321 /* openFrameworks */,
+				BB4B014C10F69532006C3DED /* addons */,
+				6948EE371B920CB800B5AC1A /* local_addons */,
+				E4B69B5B0A3A1756003C02F2 /* example-EnvelopeDebug.app */,
+			);
+			sourceTree = "<group>";
+		};
+		E4B69E1C0A3A1BDC003C02F2 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				E4B69E1D0A3A1BDC003C02F2 /* main.cpp */,
+				E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */,
+				E4B69E1F0A3A1BDC003C02F2 /* ofApp.h */,
+			);
+			path = src;
+			sourceTree = SOURCE_ROOT;
+		};
+		E4EEC9E9138DF44700A80321 /* openFrameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4EB691F138AFCF100A09F29 /* CoreOF.xcconfig */,
+				E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */,
+			);
+			name = openFrameworks;
+			sourceTree = "<group>";
+		};
+		E5D35E5D3666A22C68AC3C7E /* DelayBased */ = {
+			isa = PBXGroup;
+			children = (
+				1211C3C2FC70736AE3BD4A4B /* AllPassFilter.hpp */,
+				80F34471214B610440325B72 /* CombFilter.hpp */,
+			);
+			name = DelayBased;
+			sourceTree = "<group>";
+		};
+		F1F42077EB40041BE13C3C76 /* utilities  */ = {
+			isa = PBXGroup;
+			children = (
+				FE444049058C591380725378 /* Interpolation.cpp */,
+				399D66FECAEB6065740AFFCC /* Interpolation.hpp */,
+				B351DAFA0F76272D12B56C1A /* Meters.cpp */,
+				F853EF58B720CBABC3CC3A85 /* Meters.hpp */,
+				1FAEB950DD3F68FCA3C84B63 /* Miscellaneous.cpp */,
+				7F919F048238D541DAE7F773 /* Miscellaneous.hpp */,
+				60076F076E300AA1F4BA4730 /* Oscilliscope.cpp */,
+				DC2D209BBD69462DBF9E1854 /* Oscilliscope.hpp */,
+				56690EDD81E868D84AF5A3CF /* RecordAudio.cpp */,
+				8A2CE790858AB747EDA0D2BE /* RecordAudio.hpp */,
+				A84BB4945C27B5A7C2609D99 /* Smoother.cpp */,
+				28F8404D0557A453AE83F687 /* Smoother.hpp */,
+				B147ADE8FF267014A70006A2 /* SoundFile.cpp */,
+				6B4D0C8C4B46C91277F7EFE9 /* SoundFile.hpp */,
+				C63BADA00E27DF00A50C00CB /* SoundPlayer.cpp */,
+				C9333EA5AC5B5BB980C8ED9E /* SoundPlayer.hpp */,
+				EA45C6C091A611AABE2E16BA /* Spatialization.cpp */,
+				3A4571ABFF03D8FA9FE1243C /* Spatialization.hpp */,
+				27B535F88BDAD6B6F927B555 /* Spectroscope.cpp */,
+				76CB12713066057A2F75960A /* Spectroscope.hpp */,
+				9E8CFA3778E20D36113102FF /* TapInTapOut.cpp */,
+				FBDCBC850BC32E4D5CB10527 /* TapInTapOut.hpp */,
+			);
+			name = "utilities ";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4B69B5A0A3A1756003C02F2 /* example-Envelope */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "example-Envelope" */;
+			buildPhases = (
+				E4B69B580A3A1756003C02F2 /* Sources */,
+				E4B69B590A3A1756003C02F2 /* Frameworks */,
+				E4B6FFFD0C3F9AB9008CF71C /* ShellScript */,
+				E4C2427710CC5ABF004149E2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4EEB9AC138B136A00A80321 /* PBXTargetDependency */,
+			);
+			name = "example-Envelope";
+			productName = myOFApp;
+			productReference = E4B69B5B0A3A1756003C02F2 /* example-EnvelopeDebug.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4B69B4C0A3A1720003C02F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+			};
+			buildConfigurationList = E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "example-Envelope" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = E4B69B4A0A3A1720003C02F2;
+			productRefGroup = E4B69B4A0A3A1720003C02F2;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E4328144138ABC890047C5CB /* Products */;
+					ProjectRef = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				E4B69B5A0A3A1756003C02F2 /* example-Envelope */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		E4328148138ABC890047C5CB /* openFrameworksDebug.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = openFrameworksDebug.a;
+			remoteRef = E4328147138ABC890047C5CB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E4B6FFFD0C3F9AB9008CF71C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "mkdir -p \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/\"\n# Copy default icon file into App/Resources\nrsync -aved \"$ICON_FILE\" \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/\"\n# Copy libfmod and change install directory for fmod to run\nrsync -aved ../../../libs/fmodex/lib/osx/libfmodex.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Frameworks/\";\ninstall_name_tool -change @executable_path/libfmodex.dylib @executable_path/../Frameworks/libfmodex.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/MacOS/$PRODUCT_NAME\";\n# Copy GLUT framework (must remove for AppStore submissions)\nrsync -aved ../../../libs/glut/lib/osx/GLUT.framework \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Frameworks/\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4B69B580A3A1756003C02F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */,
+				E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */,
+				96C46664B041CAD31EAECCAF /* BaseEnvelope.cpp in Sources */,
+				569CFB51348863C71B1EEC4F /* CREnvelope.cpp in Sources */,
+				7CD67472D8A4823C0CA16E62 /* CTEnvelope.cpp in Sources */,
+				4F3AED2EA73106D3E5C7AD49 /* ImpulseGenerators.cpp in Sources */,
+				D8290CAB60C0322F9D0BFCA0 /* Noise.cpp in Sources */,
+				F9DCB82632FA849C709AEAA1 /* BaseOscillator.cpp in Sources */,
+				A6CC9F0D8DD7167345DE570B /* TrivialOscillators.cpp in Sources */,
+				4D3A04D62556899617530617 /* WavetableGeneration.cpp in Sources */,
+				84013A70B04CB70F4558A701 /* WavetableOscillators.cpp in Sources */,
+				1A3B48013AEEE9CB1C0B31FB /* Biquad.cpp in Sources */,
+				8279369C06E4F66A38431822 /* Filters.cpp in Sources */,
+				64C327A569A3DFB301BE45C1 /* Reverb.cpp in Sources */,
+				E2E9FF4865D1156286A8E4FB /* Interpolation.cpp in Sources */,
+				C33B315666B13A570FF064E0 /* Meters.cpp in Sources */,
+				B8FF85DA9031565D3E1295B6 /* Miscellaneous.cpp in Sources */,
+				F9E972F3F5334967296ED78B /* Oscilliscope.cpp in Sources */,
+				1638312D12BF9E95403037C1 /* RecordAudio.cpp in Sources */,
+				7267F649585D2AA44F1A24E9 /* Smoother.cpp in Sources */,
+				B6693BF4110304BC356F694E /* SoundFile.cpp in Sources */,
+				5F5CD6CC1B0585533726B142 /* SoundPlayer.cpp in Sources */,
+				7390B79731F519825D2D4357 /* Spatialization.cpp in Sources */,
+				2C40F2FF7977A3FCEA30C89A /* Spectroscope.cpp in Sources */,
+				D49EEB3952D37FC029692AA2 /* TapInTapOut.cpp in Sources */,
+				F0C7CC06D5A02B771A637465 /* ATKSettings.cpp in Sources */,
+				745621C18185D320B4C8DB8B /* AudioFFT.cpp in Sources */,
+				84ADD6862CFDF5B0881D3EAE /* ofxATK.cpp in Sources */,
+				856AA354D08AB4B323081444 /* ofxBaseGui.cpp in Sources */,
+				5CBB2AB3A60F65431D7B555D /* ofxButton.cpp in Sources */,
+				B266578FC55D23BFEBC042E7 /* ofxGuiGroup.cpp in Sources */,
+				483908258D00B98B4BE69F07 /* ofxLabel.cpp in Sources */,
+				F285EB3169F1566CA3D93C20 /* ofxPanel.cpp in Sources */,
+				837220E80EB56CD44AD27F2A /* ofxSlider.cpp in Sources */,
+				B56FE57CC35806596D38118C /* ofxSliderGroup.cpp in Sources */,
+				1CD33E884D9E3358252E82A1 /* ofxToggle.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4EEB9AC138B136A00A80321 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = openFrameworks;
+			targetProxy = E4EEB9AB138B136A00A80321 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E4B69B4E0A3A1720003C02F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/bin/";
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = NO;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					../../../addons/ofxATK/libs,
+					../../../addons/ofxATK/libs/oscillators,
+					../../../addons/ofxATK/src,
+					../../../addons/ofxATK/src/controllers,
+					../../../addons/ofxATK/src/generators,
+					../../../addons/ofxATK/src/generators/Envelopes,
+					../../../addons/ofxATK/src/generators/Oscillators,
+					../../../addons/ofxATK/src/modifiers,
+					../../../addons/ofxATK/src/modifiers/DelayBased,
+					../../../addons/ofxATK/src/utilities,
+					../../../addons/ofxGui/src,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-D__MACOSX_CORE__",
+					"-mtune=native",
+				);
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E4B69B4F0A3A1720003C02F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/bin/";
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_UNROLL_LOOPS = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = NO;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					../../../addons/ofxATK/libs,
+					../../../addons/ofxATK/libs/oscillators,
+					../../../addons/ofxATK/src,
+					../../../addons/ofxATK/src/controllers,
+					../../../addons/ofxATK/src/generators,
+					../../../addons/ofxATK/src/generators/Envelopes,
+					../../../addons/ofxATK/src/generators/Oscillators,
+					../../../addons/ofxATK/src/modifiers,
+					../../../addons/ofxATK/src/modifiers/DelayBased,
+					../../../addons/ofxATK/src/utilities,
+					../../../addons/ofxGui/src,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-D__MACOSX_CORE__",
+					"-mtune=native",
+				);
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E4B69B600A3A1757003C02F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../libs/glut/lib/osx\"";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = NONE;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					../../../addons/ofxATK/libs,
+					../../../addons/ofxATK/libs/oscillators,
+					../../../addons/ofxATK/src,
+					../../../addons/ofxATK/src/controllers,
+					../../../addons/ofxATK/src/generators,
+					../../../addons/ofxATK/src/generators/Envelopes,
+					../../../addons/ofxATK/src/generators/Oscillators,
+					../../../addons/ofxATK/src/modifiers,
+					../../../addons/ofxATK/src/modifiers/DelayBased,
+					../../../addons/ofxATK/src/utilities,
+					../../../addons/ofxGui/src,
+				);
+				ICON = "$(ICON_NAME_DEBUG)";
+				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
+				INFOPLIST_FILE = "openFrameworks-Info.plist";
+				INSTALL_PATH = /Applications;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)Debug";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E4B69B610A3A1757003C02F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../libs/glut/lib/osx\"";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = NONE;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					../../../addons/ofxATK/libs,
+					../../../addons/ofxATK/libs/oscillators,
+					../../../addons/ofxATK/src,
+					../../../addons/ofxATK/src/controllers,
+					../../../addons/ofxATK/src/generators,
+					../../../addons/ofxATK/src/generators/Envelopes,
+					../../../addons/ofxATK/src/generators/Oscillators,
+					../../../addons/ofxATK/src/modifiers,
+					../../../addons/ofxATK/src/modifiers/DelayBased,
+					../../../addons/ofxATK/src/utilities,
+					../../../addons/ofxGui/src,
+				);
+				ICON = "$(ICON_NAME_RELEASE)";
+				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
+				INFOPLIST_FILE = "openFrameworks-Info.plist";
+				INSTALL_PATH = /Applications;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+				baseConfigurationReference = E4EB6923138AFD0F00A09F29;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "example-Envelope" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B69B4E0A3A1720003C02F2 /* Debug */,
+				E4B69B4F0A3A1720003C02F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "example-Envelope" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B69B600A3A1757003C02F2 /* Debug */,
+				E4B69B610A3A1757003C02F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4B69B4C0A3A1720003C02F2 /* Project object */;
+}
