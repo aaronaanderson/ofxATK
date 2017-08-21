@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\ofApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxATK\src\generators\Envelopes\BaseEnvelope.cpp">
+      <Filter>addons\ofxATK\src\generators\Envelopes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxATK\src\generators\Envelopes\CREnvelope.cpp">
+      <Filter>addons\ofxATK\src\generators\Envelopes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxATK\src\generators\Envelopes\CTEnvelope.cpp">
+      <Filter>addons\ofxATK\src\generators\Envelopes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxATK\src\generators\ImpulseGenerators.cpp">
+      <Filter>addons\ofxATK\src\generators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxATK\src\generators\Noise.cpp">
+      <Filter>addons\ofxATK\src\generators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxATK\src\generators\Oscillators\BaseOscillator.cpp">
+      <Filter>addons\ofxATK\src\generators\Oscillators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxATK\src\generators\Oscillators\TrivialOscillators.cpp">
+      <Filter>addons\ofxATK\src\generators\Oscillators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxATK\src\generators\Oscillators\WavetableGeneration.cpp">
+      <Filter>addons\ofxATK\src\generators\Oscillators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxATK\src\generators\Oscillators\WavetableOscillators.cpp">
+      <Filter>addons\ofxATK\src\generators\Oscillators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxATK\src\modifiers\Biquad.cpp">
+      <Filter>addons\ofxATK\src\modifiers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxATK\src\modifiers\Filters.cpp">
+      <Filter>addons\ofxATK\src\modifiers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxATK\src\modifiers\Reverb.cpp">
+      <Filter>addons\ofxATK\src\modifiers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxATK\src\utilities\Interpolation.cpp">
+      <Filter>addons\ofxATK\src\utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxATK\src\utilities\Meters.cpp">
+      <Filter>addons\ofxATK\src\utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxATK\src\utilities\Miscellaneous.cpp">
+      <Filter>addons\ofxATK\src\utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxATK\src\utilities\Oscilliscope.cpp">
+      <Filter>addons\ofxATK\src\utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxATK\src\utilities\RecordAudio.cpp">
+      <Filter>addons\ofxATK\src\utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxATK\src\utilities\Smoother.cpp">
+      <Filter>addons\ofxATK\src\utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxATK\src\utilities\SoundFile.cpp">
+      <Filter>addons\ofxATK\src\utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxATK\src\utilities\SoundPlayer.cpp">
+      <Filter>addons\ofxATK\src\utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxATK\src\utilities\Spatialization.cpp">
+      <Filter>addons\ofxATK\src\utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxATK\src\utilities\Spectroscope.cpp">
+      <Filter>addons\ofxATK\src\utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxATK\src\utilities\TapInTapOut.cpp">
+      <Filter>addons\ofxATK\src\utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxATK\libs\ATKSettings.cpp">
+      <Filter>addons\ofxATK\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxATK\libs\AudioFFT.cpp">
+      <Filter>addons\ofxATK\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxATK\libs\ofxATK.cpp">
+      <Filter>addons\ofxATK\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxATK\libs\ofxPortSF.cpp">
+      <Filter>addons\ofxATK\libs</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons">
+      <UniqueIdentifier>{71834F65-F3A9-211E-73B8-DC85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxATK">
+      <UniqueIdentifier>{2B9F15A4-8BE3-BFF7-3A21-18C3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxATK\src">
+      <UniqueIdentifier>{AF828051-FE29-7634-756C-D232}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxATK\src\generators">
+      <UniqueIdentifier>{55DCE9A1-4AAF-BAC1-FFE6-C294}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxATK\src\generators\Envelopes">
+      <UniqueIdentifier>{9866E756-A3E8-F3AB-4DF5-E219}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxATK\src\generators\Oscillators">
+      <UniqueIdentifier>{8364123A-2356-770D-846E-C115}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxATK\src\modifiers">
+      <UniqueIdentifier>{B20A11C2-293C-70F5-73AA-0D85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxATK\src\modifiers\DelayBased">
+      <UniqueIdentifier>{EC124B58-A434-5D9E-9F6C-4083}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxATK\src\utilities">
+      <UniqueIdentifier>{DAFDF16F-2858-87F3-6253-8D82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxATK\libs">
+      <UniqueIdentifier>{35E0BA6D-D5F8-D016-B8C4-7751}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\ofApp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxATK\src\generators\Envelopes\BaseEnvelope.hpp">
+      <Filter>addons\ofxATK\src\generators\Envelopes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxATK\src\generators\Envelopes\CREnvelope.hpp">
+      <Filter>addons\ofxATK\src\generators\Envelopes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxATK\src\generators\Envelopes\CTEnvelope.hpp">
+      <Filter>addons\ofxATK\src\generators\Envelopes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxATK\src\generators\ImpulseGenerators.hpp">
+      <Filter>addons\ofxATK\src\generators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxATK\src\generators\Noise.hpp">
+      <Filter>addons\ofxATK\src\generators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxATK\src\generators\Oscillators\BaseOscillator.hpp">
+      <Filter>addons\ofxATK\src\generators\Oscillators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxATK\src\generators\Oscillators\TrivialOscillators.hpp">
+      <Filter>addons\ofxATK\src\generators\Oscillators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxATK\src\generators\Oscillators\WavetableGeneration.hpp">
+      <Filter>addons\ofxATK\src\generators\Oscillators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxATK\src\generators\Oscillators\WavetableOscillators.hpp">
+      <Filter>addons\ofxATK\src\generators\Oscillators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxATK\src\generators\Windows.hpp">
+      <Filter>addons\ofxATK\src\generators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxATK\src\modifiers\Biquad.hpp">
+      <Filter>addons\ofxATK\src\modifiers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxATK\src\modifiers\DelayBased\AllPassFilter.hpp">
+      <Filter>addons\ofxATK\src\modifiers\DelayBased</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxATK\src\modifiers\DelayBased\CombFilter.hpp">
+      <Filter>addons\ofxATK\src\modifiers\DelayBased</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxATK\src\modifiers\Filters.hpp">
+      <Filter>addons\ofxATK\src\modifiers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxATK\src\modifiers\Reverb.hpp">
+      <Filter>addons\ofxATK\src\modifiers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxATK\src\ofxATK.hpp">
+      <Filter>addons\ofxATK\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxATK\src\utilities\Interpolation.hpp">
+      <Filter>addons\ofxATK\src\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxATK\src\utilities\Meters.hpp">
+      <Filter>addons\ofxATK\src\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxATK\src\utilities\Miscellaneous.hpp">
+      <Filter>addons\ofxATK\src\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxATK\src\utilities\Oscilliscope.hpp">
+      <Filter>addons\ofxATK\src\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxATK\src\utilities\RecordAudio.hpp">
+      <Filter>addons\ofxATK\src\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxATK\src\utilities\Smoother.hpp">
+      <Filter>addons\ofxATK\src\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxATK\src\utilities\SoundFile.hpp">
+      <Filter>addons\ofxATK\src\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxATK\src\utilities\SoundPlayer.hpp">
+      <Filter>addons\ofxATK\src\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxATK\src\utilities\Spatialization.hpp">
+      <Filter>addons\ofxATK\src\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxATK\src\utilities\Spectroscope.hpp">
+      <Filter>addons\ofxATK\src\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxATK\src\utilities\TapInTapOut.hpp">
+      <Filter>addons\ofxATK\src\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxATK\libs\ATKSettings.hpp">
+      <Filter>addons\ofxATK\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxATK\libs\AudioFFT.h">
+      <Filter>addons\ofxATK\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxATK\libs\ofxPortSF.hpp">
+      <Filter>addons\ofxATK\libs</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="icon.rc" />
+  </ItemGroup>
+</Project>
