@@ -2,7 +2,7 @@
 //  SoundFile.cpp
 //  libraryBuilding
 //
-//  Created by Institute of Digital Intermedia Arts on 7/15/17.
+//  Created by Aaron Anderson on 7/15/17.
 //
 //
 

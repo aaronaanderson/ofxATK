@@ -2,7 +2,7 @@
 //  Spectroscope.cpp
 //  libraryBuilding
 //
-//  Created by Institute of Digital Intermedia Arts on 7/17/17.
+//  Created by Aaron Anderson on 7/17/17.
 //
 //
 

@@ -2,7 +2,7 @@
 //  BaseOscillator.cpp
 //  libraryBuilding
 //
-//  Created by Institute of Digital Intermedia Arts on 8/1/17.
+//  Created by Aaron Anderson on 8/1/17.
 //
 //
 

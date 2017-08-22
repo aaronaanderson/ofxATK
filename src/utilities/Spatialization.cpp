@@ -2,7 +2,7 @@
 //  Spatialization.cpp
 //  libraryBuilding
 //
-//  Created by Institute of Digital Intermedia Arts on 8/4/17.
+//  Created by Aaron Anderson on 8/4/17.
 //
 //
 

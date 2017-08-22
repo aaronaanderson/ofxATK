@@ -2,7 +2,7 @@
 //  ImpulseGenerators.hpp
 //  libraryBuilding
 //
-//  Created by Institute of Digital Intermedia Arts on 8/3/17.
+//  Created by Aaron Anderson on 8/3/17.
 //
 //
 
