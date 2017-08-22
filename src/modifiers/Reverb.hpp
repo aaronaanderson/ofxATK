@@ -108,12 +108,12 @@ private:
     TapIn* delayLine;
     static const int numEarlyReflections = 16;
     TapOut* earlyReflections[numEarlyReflections];
-    float reflectionTimeList[numEarlyReflections] = {4.3, 21.5, 22.5, 26.8, 27, 29.8, 45.8, 48.8, 57.2, 58.7, 59.5, 61.2, 70.7, 70.8, 72.6, 74.1};
-    float reflectionAmpList[numEarlyReflections] = {0.841, 0.504, 0.491, 0.379, 0.38, 0.346, 0.289, 0.272, 0.192, 0.193, 0.217, 0.181, 0.18, 0.181, 0.176, 0.142};
+    float reflectionTimeList[numEarlyReflections] = {4.3f, 21.5f, 22.5f, 26.8f, 27.f, 29.8f, 45.8f, 48.8f, 57.2f, 58.7f, 59.5f, 61.2f, 70.7f, 70.8f, 72.6f, 74.1f};
+    float reflectionAmpList[numEarlyReflections] = {0.841f, 0.504f, 0.491f, 0.379f, 0.38f, 0.346f, 0.289f, 0.272f, 0.192f, 0.193f, 0.217f, 0.181f, 0.18f, 0.181f, 0.176f, 0.142f};
     LPCF* combFilters[4];
-    float combDelayTimes[4] = {29.7, 37.1, 41.1, 43.7};
+    float combDelayTimes[4] = {29.7f, 37.1f, 41.1f, 43.7f};
     AllPassFilter* allPassFilters[2];
-    float allPassDelayTimes[2] = {5, 1.7};
+    float allPassDelayTimes[2] = {5.f, 1.7f};
 };
 
 #endif /* Reverb_hpp */

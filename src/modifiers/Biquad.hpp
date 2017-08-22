@@ -24,8 +24,7 @@
 #define Biquad_hpp
 
 #include <stdio.h>
-
-
+#include "ofMain.h"
 
 enum {
     bq_type_lowpass = 0,
