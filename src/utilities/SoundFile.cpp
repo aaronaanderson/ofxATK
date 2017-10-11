@@ -29,7 +29,7 @@ void SoundFile::draw(){
 }
 //--------------------------------------------------------------
 void SoundFile::draw(int newX, int newY, int newWidth, int newHeight){
-    setDrawPosition(x, y);
+    setDrawPosition(newX, newY);
     setDrawSize(newWidth, newHeight);
     ofSetColor(0);
     ofDrawRectangle(x, y, width, height);
