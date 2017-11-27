@@ -20,7 +20,7 @@ void SoundPlayer::play(){
 void SoundPlayer::play(float speed){
     phaseInc = (reference->getSFSR()*speed)/ATKSettings::sampleRate;
     isPlaying = true;
-    cout << ATKSettings::sampleRate << " " <<  reference->getSFSR() << endl;
+    //cout << ATKSettings::sampleRate << " " <<  reference->getSFSR() << endl;
 }
 //--------------------------------------------------------------
 void SoundPlayer::setSpeed(float speed){

@@ -21,7 +21,7 @@
 class Butterworth{
 public:
     Butterworth(){
-        mode = BR;
+        mode = HP;
         prevIn = prevPrevIn = 0.0;
         prevOut = prevPrevOut = 0.0;
         bandwidth = 120;
@@ -64,6 +64,9 @@ public:
     void setCutoff(float newCutoff){
         cutoff = newCutoff;
         calculateCoeff();
+    }
+    void setMode(int newMode){
+        mode = newMode;
     }
     
 private:

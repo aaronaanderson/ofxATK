@@ -199,12 +199,46 @@ public:
     
     void setFreq(float newFreq){
         frequency = newFreq;
-        phaseInc = newFreq/sineTable->getFundamentalFreq();
+        phaseInc = newFreq/(double)sineTable->getFundamentalFreq();
     }
     
 private:
     SineTable* sineTable = SineTable::getInstance();
 
+};
+
+class WTCosine : public BaseOscillator{
+public:
+    WTCosine(){
+        setFreq(440);
+        amplitude = 1.0;
+        quarterTableSize = sineTable->getTableSize()*0.25;
+    }
+    
+    WTCosine(float initFreq){
+        setFreq(initFreq);
+        amplitude = 1.0;
+        quarterTableSize = sineTable->getTableSize()*0.25;
+    }
+    
+    void process(){
+        float adjustedPhase = fmod(phase+quarterTableSize, sineTable->getTableSize());
+        currentSample = linearInterp(sineTable->table[int(adjustedPhase)], sineTable->table[int(adjustedPhase + 1)], phase);
+        currentSample *= amplitude;
+        phase += phaseInc;
+        if(phase >= sineTable->getTableSize()-1){phase -= (sineTable->getTableSize());}
+        if(phase <= 0){phase += sineTable->getTableSize();}
+    }
+    
+    void setFreq(float newFreq){
+        frequency = newFreq;
+        phaseInc = frequency/(double)sineTable->getFundamentalFreq();
+    }
+    
+private:
+    SineTable* sineTable = SineTable::getInstance();
+    float quarterTableSize;
+    
 };
 
 #endif /* WavetableOscillators_hpp */

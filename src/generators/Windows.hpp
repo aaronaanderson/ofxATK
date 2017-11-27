@@ -12,7 +12,7 @@
 #include "ofMain.h"
 
 
-inline double hannWindow(double phase){
+inline double hannWindow(double phase){//0-1
     return 0.5*(1.0-cos((2.0f * PI * phase)/1.0f));
 }
 

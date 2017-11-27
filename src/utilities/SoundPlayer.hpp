@@ -19,7 +19,7 @@ class SoundPlayer{
     
 public:
     
-    SoundPlayer(SoundFile* _reference, float startPosition = 1, bool initLoopEnabled = true){
+    SoundPlayer(SoundFile* _reference, float startPosition = 1, bool initLoopEnabled = false){
         reference = _reference;
         interpolation = LINEAR;
         phase = startPosition;
@@ -54,6 +54,10 @@ public:
     }
     void setLoopMode(int newLoopMode){
         loopMode = newLoopMode;
+    }
+    
+    void setLoopEnabled(bool newLE){
+        loopEnabled = newLE;
     }
     
 private:

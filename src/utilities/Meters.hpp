@@ -57,7 +57,7 @@ class Meter {
     
 public:
     
-    ~Meter();
+
     Meter(ofVec2f _location, int _width, int _height, int sampleLength){
         clipped = false;
         counter = 0;
@@ -81,8 +81,6 @@ public:
         numToAverageRecip = 1 / (double)numToAverage;
         rms.smoother = new ParameterSmoother(400, ofGetFrameRate());
     }
-    
-    void setup(ofVec2f _location, int width, int height, int sampleLength);
     
     void feedMeter(float input);
     void update();

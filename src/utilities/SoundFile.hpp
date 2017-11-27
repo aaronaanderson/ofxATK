@@ -27,6 +27,7 @@ public:
         drawResolution = 45;
         cellSizes.resize(drawResolution);
         SoundFile::load(path);
+        backgroundColor = ofColor(15, 24, 130);
     }
     
     void resize(unsigned int sizeInSamps);
@@ -52,12 +53,15 @@ public:
     float* getBuffer(){
         return buffer.data();
     }
+    
     void setDrawPosition(int newX, int newY){
         x = newX; y = newY;
     }
+    
     void setDrawSize(int newWidth, int newHeight){
         width = newWidth; height = newHeight;
     }
+    
     float getX(){
         return x;
     }
@@ -70,7 +74,9 @@ public:
     float getHeight(){
         return height;
     }
-    
+    void setBackgroundColor(ofColor newBGColor){
+        backgroundColor = newBGColor;
+    }
 private:
     
     vector<float> buffer;
@@ -96,5 +102,6 @@ private:
     float x, y, width, height;
     int drawResolution;
     vector<float> cellSizes;//stores the RMS of audio
+    ofColor backgroundColor;
 };
 #endif /* SoundFile_hpp */

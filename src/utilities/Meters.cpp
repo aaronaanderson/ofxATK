@@ -81,30 +81,7 @@ void CircleMeter::draw() {
     ofDrawCircle(location, rms.currentValue*radius);
 }
 
-//--------------------------------------------------------
-void Meter::setup(ofVec2f _location, int _width, int _height, int sampleLength) {
-    clipped = false;
-    counter = 0;
-    location = _location;
-    width = _width;
-    height = _height;
-    
-    if (sampleLength > 100) {
-        numToAverage = sampleLength;
-    }
-    else {
-        numToAverage = 100;
-    }
-    
-    if (width > height) {
-        mode = HORIZONTAL;
-    }else {
-        mode = VERTICAL;
-    }
-    
-    numToAverageRecip = 1 / (double)numToAverage;
-    rms.smoother = new ParameterSmoother(400, ofGetFrameRate());
-}
+
 
 void Meter::feedMeter(float input) {
     

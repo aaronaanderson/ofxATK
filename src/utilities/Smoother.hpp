@@ -17,6 +17,7 @@ class ParameterSmoother {
     
 public:
     
+    
     ParameterSmoother(float smoothingTimeMS, int sampleRate) {
         smoothingTime = smoothingTimeMS;
         a = exp(-TWO_PI / (smoothingTimeMS * 0.001 * sampleRate));
@@ -41,7 +42,7 @@ public:
             smoothingTime = newSmoothingTime;
             a = exp(-TWO_PI / (smoothingTime * 0.001 * ATKSettings::sampleRate));
             b = 1.0 - a;
-            z = 0.0;
+            //z = 0.0; this was wrong, if changing time keep previous z
         }
     }
     
@@ -53,8 +54,18 @@ private:
 };
 
 struct SmoothValue {
+    SmoothValue() = default;
+    SmoothValue(float current, float target, float timeMS){
+        currentValue = current;
+        targetValue = target;
+        smoother = new ParameterSmoother(timeMS);
+    }
     float targetValue;
     float currentValue;
     ParameterSmoother* smoother;
+    
+    void process(){
+        currentValue = smoother->process(targetValue);
+    }
 };
 #endif /* Smoother_hpp */

@@ -59,7 +59,7 @@ class Reverb{
     
 public:
     
-    Reverb(float absorption = 0.01, float absorptionFreq = 5000, float mix = 0.7, float initPreDelay = 40){
+    Reverb(float absorption = 0.03, float absorptionFreq = 5000, float mix = 0.7, float initPreDelay = 40){
         feedBack = 1.0 - ofClamp(absorption, 0.0, 1.0);
         cutOffFreq = absorptionFreq;
         dryWetMix = 1.0 - ofClamp(mix, 0.0, 1.0);

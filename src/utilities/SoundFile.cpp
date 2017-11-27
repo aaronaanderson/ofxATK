@@ -33,7 +33,7 @@ void SoundFile::draw(int newX, int newY, int newWidth, int newHeight){
     setDrawSize(newWidth, newHeight);
     ofSetColor(0);
     ofDrawRectangle(x, y, width, height);
-    ofSetColor(ofColor(15, 24, 130));
+    ofSetColor(backgroundColor);
     ofDrawRectangle(x+1, y+1, width-2, height-2);
 
     
@@ -125,15 +125,15 @@ void SoundFile::load(string dataPath){//load sound file from written path
         
         //store the data that is needed to draw
         int samplesPerCell = size/(float)drawResolution;
-        cout << cellSizes.size() << endl;
-        cout << drawResolution << endl;
+        //cout << cellSizes.size() << endl;
+        //cout << drawResolution << endl;
         for(int i = 0; i < drawResolution; i++){//for every drawCell
             float average = 0;
             for(int j = 0; j < samplesPerCell; j++){//for every sample in cell
                 average += fabs(buffer[(i*samplesPerCell)+j]);
             }
             average = average/float(samplesPerCell);
-            cout << i << " " <<average << endl;
+            //cout << i << " " <<average << endl;
             cellSizes[i] = average;
         }
     }
