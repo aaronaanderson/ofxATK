@@ -4,14 +4,16 @@ ofxATK (Audio Tool Kit) is an audio digital signal processing library made speci
 
 Tested on Windows and MacOS, should work on Linux.
 
+update: do to an issue with portSF, windows will only compile in 32bit. This issue should be resolved mid-February 2018.
+
 <h2>Install:</h2>
 
 
 • Place the ofxATK folder in your addons folder: of_currentVersion_relase > addons > ofxATK
 
 <h2>Dependencies: </h2>
-
-ofxMIDI, ofxGUI
+(for examples only)
+ofxMIDI, ofxGUI 
 
 
 
