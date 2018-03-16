@@ -22,6 +22,7 @@ int PinkNoise::findTable(int index){
     }else if(index == 15){//there is only one in this table
         return 4;
     }
+    return 0;
 }
 
 int PinkNoise::findEntry(int table, int index){
@@ -46,6 +47,7 @@ int PinkNoise::findEntry(int table, int index){
             break;
         default:
             ofLog(OF_LOG_WARNING, "issue with table in Pink Noise");
+	    return 0;
     }
 }
 
