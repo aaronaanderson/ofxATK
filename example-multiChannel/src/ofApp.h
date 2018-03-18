@@ -1,7 +1,7 @@
 #pragma once
 
 #include "ofMain.h"
-#include "ofxAtk.hpp"
+#include "ofxATK.hpp"
 
 class ofApp : public ofBaseApp{
 

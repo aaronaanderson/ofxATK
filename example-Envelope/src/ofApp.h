@@ -2,7 +2,7 @@
 
 #include "ofMain.h"
 #include "ofxATK.hpp"
-#include "ofxGUI.h"
+#include "ofxGui.h"
 
 class ofApp : public ofBaseApp{
 

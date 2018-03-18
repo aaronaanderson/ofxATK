@@ -11,7 +11,7 @@
 #include <stdio.h>
 #include "BaseOscillator.hpp"
 #include "WavetableGeneration.hpp"
-#include "interpolation.hpp"
+#include "Interpolation.hpp"
 
 
 //-------------------------------------------------------------------
