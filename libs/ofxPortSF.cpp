@@ -62,7 +62,7 @@ int stricmp(const char *a, const char *b);
 int strnicmp(const char *a, const char *b, const int length);
 #endif
 /* to the best of my knowledge,m ~only~ linux defines fpos_t as a struct */
-#ifdef linux
+#ifdef __linux__
 #define POS64(x) (x.__pos)
 #else
 #define POS64(x) (x)
