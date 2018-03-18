@@ -119,6 +119,7 @@ private:
                 index++;
             }
         }
+        return 0;
     }
 };
 
@@ -173,6 +174,7 @@ private:
                 index++;
             }
         }
+	return 0;
     }
 };
 
