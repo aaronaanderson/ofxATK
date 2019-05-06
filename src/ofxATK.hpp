@@ -1,6 +1,6 @@
 //
 //  ofxATK.hpp
-//  libraryBuilding
+//  library Building
 //
 //  Created by Aaron Anderson.
 //
@@ -27,7 +27,7 @@
 #include "CombFilter.hpp"
 #include "AllPassFilter.hpp"
 #include "Reverb.hpp"
-
+#include "MoogLadderFilter.h"
 
 
 #endif /* ofxATK_hpp */
