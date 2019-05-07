@@ -152,7 +152,6 @@ public:
         previousSample = 0;
         cosTheta = 2.0 - cos((TWO_PI*cutOff)/ATKSettings::sampleRate);
         coef = cosTheta - sqrt((cosTheta*cosTheta)-1.0);
-        cout << "coef: " << coef << endl;
     }
     
     inline float filter(float input){
@@ -179,7 +178,6 @@ public:
         previousSample = 0;
         cosTheta = 2.0 - cos((TWO_PI*cutOff)/ATKSettings::sampleRate);
         coef = sqrt((cosTheta*cosTheta)-1.0) - cosTheta;
-        cout << "coef: " << coef << endl;
     }
     
     inline float filter(float input){
