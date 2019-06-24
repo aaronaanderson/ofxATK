@@ -2,8 +2,6 @@
 //  Filters.hpp
 //  libraryBuilding
 //
-//  Created by Institute of Digital Intermedia Arts on 7/17/17.
-//
 //
 
 #ifndef Filters_hpp
@@ -182,7 +180,7 @@ public:
     
     inline float filter(float input){
         currentSample = (input*(1.0+coef)) - (previousSample * coef);
-        previousSample = currentSample;
+        previousSample = currentSample;//TODO rename previous sample to previousOutput  
         return currentSample;
     }
     void setFreq(float newCutOff){

@@ -18,7 +18,7 @@ is flipped around 0 (multiplied by -1), multiplied by K, and summed with the nex
 
 
 //TODO Make parent class for filters
-class LadderFilter {
+class LadderFilter  {
 
 public:
 	LadderFilter() {

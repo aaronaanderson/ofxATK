@@ -19,7 +19,7 @@ float LadderFilter::process(float input) {
 		currentSample = lowPassFilters[i].filter(currentSample);//TODO change filter to process
 	}
 
-	flippedOutput = currentSample * resonance * -1;//scale by k(resonance), the resonance factor; (I think a k of 4 = a Q of 1)
+	flippedOutput = currentSample * resonance * -   1;//scale by k(resonance), the resonance factor; (I think a k of 4 = a Q of 1)
 
 	return currentSample;
 }
