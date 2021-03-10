@@ -14,8 +14,7 @@ The most basic model is 4 lowpass filters in series. The output of the final LPF
 is flipped around 0 (multiplied by -1), multiplied by K, and summed with the next input value
 */
 
-#include "filters.hpp"
-
+#include "Filters.hpp"
 
 //TODO Make parent class for filters
 class LadderFilter  {
@@ -40,7 +39,6 @@ public:
 	void setResonance(float resonance) {this->resonance = resonance;}
 	void reset();//TODO add this to all filters. 
 
-
 private:
 	
 	LowPass lowPassFilters[4];
@@ -48,6 +46,4 @@ private:
 	float flippedOutput;//previous output * -1
 	float cutOffFrequency;
 	float resonance;//this is how much resonance (not mathematically the same as Q, but controlls the same thing) pg333
-
-
 };

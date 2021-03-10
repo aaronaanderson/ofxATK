@@ -1,5 +1,3 @@
-
-
 #include "MoogLadderFilter.h"
 
 void LadderFilter::reset() {
@@ -10,7 +8,6 @@ void LadderFilter::reset() {
 }
 
 float LadderFilter::process(float input) {
-
 	//add the previous output to the input
 	float currentSample = input + flippedOutput;
 
@@ -20,6 +17,5 @@ float LadderFilter::process(float input) {
 	}
 
 	flippedOutput = currentSample * resonance * -   1;//scale by k(resonance), the resonance factor; (I think a k of 4 = a Q of 1)
-
 	return currentSample;
 }
